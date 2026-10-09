@@ -1,0 +1,25 @@
+# Bibliotecas (recriadas com npm install)
+node_modules/
+
+# Senhas e conexões
+.env
+.env.*
+pgconn.json
+
+# Bancos e arquivos de teste (podem conter dados pessoais – LGPD)
+*.sqlite
+*.sqlite3
+*.db
+uploads/
+
+# Textos de OCR de normas protegidas (direito autoral)
+ocr/
+
+# Pacotes de distribuição e registros
+dist/
+*.zip
+*.log
+
+# Arquivos do sistema
+Thumbs.db
+desktop.ini
